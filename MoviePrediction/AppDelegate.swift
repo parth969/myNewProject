@@ -15,6 +15,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        
+        let arrDir = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)
+               
+               print(arrDir)
         // Override point for customization after application launch.
         return true
     }
